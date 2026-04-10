@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -56,3 +57,29 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+
+# Software Development Team TOPSIS
+
+## Anggota Kelompok
+
+1. Alfan Pratama Farisqi– Project Manager
+2. Dela Audi Setyawati – Front-End Developer
+3. Amanda Silfiana – Back-End Developer
+
+## Mata Kuliah
+
+Software Development
+
+## Deskripsi Repository
+
+Repository ini adalah bagian dari tugas proyek software development
+
+>>>>>>> 9019fb08b308f10cddbb73e661a5336b8ab8d568
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>
+>>>
+>>
+>>>>>>> 4b23f3757d51a5ccf639b481ca605e34ad047b13
