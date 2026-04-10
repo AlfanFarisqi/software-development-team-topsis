@@ -2,11 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-<<<<<<< HEAD
 Route::get('/', function () {
     return 'Home';
 });
 
+Route::get('/login', function () {
+    return view('auth.login');
+});
 Route::get('/admin/dashboard', function () {
     return view('admin.dashboard');
 });
@@ -36,36 +38,28 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::view('/data-penilaian/input', 'admin.data-penilaian.input')->name('data-penilaian.input');
 });
 
-=======
-Route::get('/login', function () {
-    return view('auth.login');
-});
 
-Route::get('/profile', function () {
-    return view('auth.profile');
-});
 
-Route::get('/informasi', function () {
-    return view('auth.informasi');
-});
+Route::prefix('mahasiswa')->name('mahasiswa.')->group(function () {
+    
+    // profile
+    Route::view('/profile', 'mahasiswa.profile')->name('profile');
 
-Route::get('/daftar', function () {
-    return view('auth.daftar');
-});
+    // informasi
+    Route::view('/informasi', 'mahasiswa.informasi')->name('informasi');
 
-Route::get('/berkas', function () {
-    return view('auth.berkas');
-}); 
+    // daftar
+    Route::view('/daftar', 'mahasiswa.daftar')->name('daftar');
 
-Route::get('/penilaian', function () {
-    return view('auth.penilaian');
-});
+    // berkas
+    Route::view('/berkas', 'mahasiswa.berkas')->name('berkas');
 
-Route::get('/hasil', function () {
-    return view('auth.hasil');
-});
+    // penilaian
+    Route::view('/penilaian', 'mahasiswa.penilaian')->name('penilaian');
 
-Route::get('/pengumuman', function () {
-    return view('auth.pengumuman');
+    // hasil
+    Route::view('/hasil', 'mahasiswa.hasil')->name('hasil');
+
+    // pengumuman
+    Route::view('/pengumuman', 'mahasiswa.pengumuman')->name('pengumuman');
 });
->>>>>>> 4b23f3757d51a5ccf639b481ca605e34ad047b13

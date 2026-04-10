@@ -82,7 +82,7 @@
         <form>
             {{-- IPK --}}
             <div class="kriteria-box">
-                <div class="kriteria-header">1. IPK</div>
+                <div class="kriteria-header">C1 - IPK</div>
                 <div class="kriteria-body">
                     <div class="kriteria-row">
                         <div class="range-label">3.76 - 4.00</div>
@@ -129,7 +129,7 @@
 
             {{-- Pengalaman Prestasi --}}
             <div class="kriteria-box">
-                <div class="kriteria-header">2. Pengalaman Prestasi</div>
+                <div class="kriteria-header">C2 - Prestasi</div>
                 <div class="kriteria-body">
                     <div class="kriteria-row">
                         <div class="range-label">Tingkat Internasional</div>
@@ -164,12 +164,12 @@
                 </div>
             </div>
 
-            {{-- Karya Tulis Ilmiah --}}
+            {{-- C3 - Keaktifan Organisasi --}}
             <div class="kriteria-box">
-                <div class="kriteria-header">3. Karya Tulis Ilmiah</div>
+                <div class="kriteria-header">C3 - Keaktifan Organisasi</div>
                 <div class="kriteria-body">
                     <div class="kriteria-row">
-                        <div class="range-label">Sangat Baik (Juara 1/2/3)</div>
+                        <div class="range-label">Ketua / Badan Pengurus Harian</div>
                         <div class="score-group">
                             <button type="button" class="score-btn">1</button>
                             <button type="button" class="score-btn">2</button>
@@ -179,7 +179,17 @@
                         </div>
                     </div>
                     <div class="kriteria-row">
-                        <div class="range-label">Baik (Finalis)</div>
+                        <div class="range-label">Pengurus Inti Divisi / Panitia Utama</div>
+                        <div class="score-group">
+                            <button type="button" class="score-btn">1</button>
+                            <button type="button" class="score-btn">2</button>
+                            <button type="button" class="score-btn">3</button>
+                            <button type="button" class="score-btn active">4</button>
+                            <button type="button" class="score-btn">5</button>
+                        </div>
+                    </div>
+                    <div class="kriteria-row">
+                        <div class="range-label">Anggota / Partisipan Aktif</div>
                         <div class="score-group">
                             <button type="button" class="score-btn">1</button>
                             <button type="button" class="score-btn">2</button>
@@ -189,7 +199,7 @@
                         </div>
                     </div>
                     <div class="kriteria-row">
-                        <div class="range-label">Kurang (Tidak Ada)</div>
+                        <div class="range-label">Pasif / Tidak Mengikuti</div>
                         <div class="score-group">
                             <button type="button" class="score-btn active">1</button>
                             <button type="button" class="score-btn">2</button>
@@ -201,12 +211,12 @@
                 </div>
             </div>
 
-            {{-- Penguasaan Bahasa Inggris --}}
+            {{-- C4 - Kemampuan Komunikasi --}}
             <div class="kriteria-box">
-                <div class="kriteria-header">4. Penguasaan Bahasa Inggris</div>
+                <div class="kriteria-header">C4 - Kemampuan Komunikasi</div>
                 <div class="kriteria-body">
                     <div class="kriteria-row">
-                        <div class="range-label">Sangat Baik (Fasih Aktif)</div>
+                        <div class="range-label">Sangat Baik (Presentasi Sempurna, Menjawab Cerdas)</div>
                         <div class="score-group">
                             <button type="button" class="score-btn">1</button>
                             <button type="button" class="score-btn">2</button>
@@ -216,7 +226,17 @@
                         </div>
                     </div>
                     <div class="kriteria-row">
-                        <div class="range-label">Baik (Cukup Pasif)</div>
+                        <div class="range-label">Baik (Jelas dan Terstruktur)</div>
+                        <div class="score-group">
+                            <button type="button" class="score-btn">1</button>
+                            <button type="button" class="score-btn">2</button>
+                            <button type="button" class="score-btn">3</button>
+                            <button type="button" class="score-btn active">4</button>
+                            <button type="button" class="score-btn">5</button>
+                        </div>
+                    </div>
+                    <div class="kriteria-row">
+                        <div class="range-label">Cukup (Gugup Namun Tersampaikan)</div>
                         <div class="score-group">
                             <button type="button" class="score-btn">1</button>
                             <button type="button" class="score-btn">2</button>
@@ -226,7 +246,7 @@
                         </div>
                     </div>
                     <div class="kriteria-row">
-                        <div class="range-label">Kurang / Tidak Bisa</div>
+                        <div class="range-label">Kurang Baik / Sulit Dipahami</div>
                         <div class="score-group">
                             <button type="button" class="score-btn active">1</button>
                             <button type="button" class="score-btn">2</button>
@@ -238,12 +258,12 @@
                 </div>
             </div>
 
-            {{-- Kepribadian --}}
+            {{-- C5 - Inovasi / Gagasan --}}
             <div class="kriteria-box">
-                <div class="kriteria-header">5. Kepribadian / Sikap</div>
+                <div class="kriteria-header">C5 - Inovasi / Gagasan</div>
                 <div class="kriteria-body">
                     <div class="kriteria-row">
-                        <div class="range-label">Sangat Baik (A)</div>
+                        <div class="range-label">Produk Dibuat dan Diimplementasikan</div>
                         <div class="score-group">
                             <button type="button" class="score-btn">1</button>
                             <button type="button" class="score-btn">2</button>
@@ -253,11 +273,31 @@
                         </div>
                     </div>
                     <div class="kriteria-row">
-                        <div class="range-label">Baik (B)</div>
+                        <div class="range-label">Proposal Lolos Didanai / Prototipe</div>
+                        <div class="score-group">
+                            <button type="button" class="score-btn">1</button>
+                            <button type="button" class="score-btn">2</button>
+                            <button type="button" class="score-btn">3</button>
+                            <button type="button" class="score-btn active">4</button>
+                            <button type="button" class="score-btn">5</button>
+                        </div>
+                    </div>
+                    <div class="kriteria-row">
+                        <div class="range-label">Hanya Sebatas Ide / Gagasan Konseptual</div>
                         <div class="score-group">
                             <button type="button" class="score-btn">1</button>
                             <button type="button" class="score-btn">2</button>
                             <button type="button" class="score-btn active">3</button>
+                            <button type="button" class="score-btn">4</button>
+                            <button type="button" class="score-btn">5</button>
+                        </div>
+                    </div>
+                    <div class="kriteria-row">
+                        <div class="range-label">Tidak Relevan Atau Sangat Teoritis Biasa</div>
+                        <div class="score-group">
+                            <button type="button" class="score-btn active">1</button>
+                            <button type="button" class="score-btn">2</button>
+                            <button type="button" class="score-btn">3</button>
                             <button type="button" class="score-btn">4</button>
                             <button type="button" class="score-btn">5</button>
                         </div>
